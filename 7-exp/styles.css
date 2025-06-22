@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana, 'serif';
+    margin: 0;
+}
+
+body {
+    background: #eee;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* menu base styles */
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    background-color: #777;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* flex box styles */
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        /*justify-content: center; !* move flex items to center of the container *!*/
+        justify-content: flex-start; /* default behaviour */
+        /*justify-content: flex-end; -> move flex items to end of the flex container*/
+        /*justify-content: space-around;*/
+        /*justify-content: space-between;*/
+        /*justify-content: space-evenly;*/
+    }
+
+    nav li {
+        flex: 1 1 0;
+    }
+}

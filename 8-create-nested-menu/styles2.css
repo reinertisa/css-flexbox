@@ -1,0 +1,71 @@
+* {
+    font-family: Verdana, 'serif';
+    margin: 0;
+}
+
+body {
+    background: #000;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+a.tw {
+    background: url(img/tw.png) no-repeat center;
+    background-size: 100%;
+}
+
+a.fb {
+    background: url(img/fb.png) no-repeat center;
+    background-size: 100%;
+}
+
+.social a {
+    text-indent: -10000px;
+}
+
+.social {
+    max-width: 80px;
+}
+
+.social {
+    margin: 0 auto;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main {
+        display: flex;
+    }
+
+
+    .social {
+        display: flex;
+    }
+
+    .social {
+        margin: 0;
+    }
+
+}

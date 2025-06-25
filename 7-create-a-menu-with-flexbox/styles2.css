@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    font-family: Verdana, 'serif';
+}
+
+body {
+    background: #fff;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    border: 1px solid crimson;
+    background: #333333;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav div {
+        flex: 1 1 0;
+    }
+
+    nav div {
+        background-color: red;
+    }
+
+    nav div:nth-child(even) {
+        background-color: green;
+    }
+}

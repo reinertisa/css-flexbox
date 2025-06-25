@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana;
+    font-family: Verdana, 'serif';
     margin: 0;
 }
 
@@ -17,18 +17,16 @@ body {
     display: flex;
     background: #fff;
     flex-wrap: wrap;
-    /*flex-wrap: nowrap; // de fault */
-    /*flex-wrap: wrap-reverse;*/
 }
 
 .box {
     height: 100px;
     min-width: 200px;
-    flex-grow: 1;
+    flex-grow: 1
 }
 
 .one {
-    background: red
+    background: red;
 }
 
 .two {
